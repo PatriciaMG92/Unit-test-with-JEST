@@ -5,20 +5,15 @@ let oneEuroIs = {
 }
 
 const fromEuroToDollar = function(valueInEuro){
-    // convertimos el valor a dolares
-    let valueInDollar = valueInEuro * 1.2;
-    // retornamos el valor
-    return valueInDollar;
+    return valueInDollar= valueInEuro * 1.2;
 }
 
 const fromDollarToYen = function(valueInDollar){
-    let valueInYen = valueInDollar * 127.9;
-    return valueInYen;
+    return valueInYen=(valueInDollar/1.2) * 127.9;
 }
 
 const fromYenToPound = function(valueInYen){
-    let valueInPound = valueInYen * 0.8;
-    return valueInPound;
+    return valueInPound=(valueInYen/127.9)* 0.8;
 }
 
 const sum = (a,b) => {
